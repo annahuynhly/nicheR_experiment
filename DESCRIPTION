@@ -1,0 +1,22 @@
+Package: nicheR.experiment
+Title: nicheR GSOC Test
+Version: 0.0.0.9000
+Authors@R: 
+    person("Anna", "Ly", , "annahuynh.ly@utoronto.ca", role = c("aut", "cre"),
+           c(ORCID = "0000-0002-0210-0342"))
+Description: 
+    Package used for the hard nicheR shiny GSOC 2026 test. The functions are 
+    experimental and are only to fulfill the particular requirements of a 
+    function to launch the interface, helper functions to download, and helper
+    functions to process the bioclim data.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Imports:
+  terra,
+  geodata,
+  shiny
+Suggests:
+  shinycssloaders,
+  bslib
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
