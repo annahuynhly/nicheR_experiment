@@ -1,26 +1,26 @@
 
 # nicheR.experiment
 
-<!-- badges: start -->
-<!-- badges: end -->
+This is a GSOC submission.
 
-The goal of nicheR.experiment is to ...
+[![R-CMD-check](https://github.com/annahuynhly/nicheR_experiment/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/annahuynhly/nicheR_experiment/actions/workflows/R-CMD-check.yaml)
 
 ## Installation
 
-You can install the development version of nicheR.experiment from [GitHub](https://github.com/) with:
+You can install the development version of nicheR.experiment from 
+[GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("pak")
 pak::pak("annahuynhly/nicheR_experiment")
 ```
 
-## Example
+## Loading Website Example
 
-This is a basic example which shows you how to solve a common problem:
+Use the following command below after loading the library to launch the `R shiny` app.
 
 ``` r
 library(nicheR.experiment)
-## basic example code
+launch_app()
 ```
 
