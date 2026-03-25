@@ -25,3 +25,7 @@ Use the following command below after loading the library to launch the `R shiny
 library(nicheR.experiment)
 launch_app()
 ```
+
+Below is a quick demo!
+
+![](inst/website_example.gif)
